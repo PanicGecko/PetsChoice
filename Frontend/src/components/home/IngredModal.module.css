@@ -1,0 +1,158 @@
+.backDrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+}
+
+.modal {
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.closeButton {
+    width: 16px;
+    height: 16px;
+    
+}
+
+.closeButton > img {
+    width: 100%;
+    height: 100%;
+}
+
+.modalUl
+{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    min-height: 250px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    border-spacing: 0 20px;
+}
+
+.modalUl > li
+{
+    text-align: center;
+    display: table-row;
+}
+.modalUl > li > span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.tableBox {
+    display: inline-block;
+    min-height: 50px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.IngredBox {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    table-layout: fixed;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.IngredBox1 {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    table-layout: fixed;
+    box-sizing: border-box;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.levelInd {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    margin: auto;
+}
+.ingredInd {
+    font-size: 20px;
+}
+.closeInd {
+    width: 16px;
+    height: 16px;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+td > select {
+    width: 100%;
+    border-color: #FFB519;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.IngredName{
+    width: 100%;
+    font-size: 20px;
+    border-color: transparent;
+    border-bottom-color: #FFB519;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.addIngred {
+    margin: auto;
+    font-size: 20px;
+    border-color: #FFB519;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.addButton {
+    margin: auto;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #FFB519;
+    border-radius: 5px;
+}
+
+.span1 {
+    font-size: 20px;
+}
+
+.input{
+    border-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #FFB519;
+    text-align: center;
+    font-size: 25px;
+    max-width: 20ch;
+    width: 100%;
+}
+
+.input:focus {
+    outline: none;
+}

@@ -1,0 +1,30 @@
+.frame {
+    margin: auto;
+    width: 95%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.stuff {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.stuff > div {
+    margin: 10px;
+}
+
+.Add {
+    background-color: #FFB519;
+    margin: auto;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+}

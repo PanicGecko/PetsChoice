@@ -1,0 +1,37 @@
+.frame {
+    height: 50px;
+    border-color: #FFB519;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.frame > p {
+    margin: 0;
+    font-size: 25px;
+    color: #FFB519;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.level {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}

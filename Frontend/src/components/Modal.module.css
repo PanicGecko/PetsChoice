@@ -1,0 +1,102 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.backDrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.modal {
+    position: absolute;
+    background-color: white;
+    max-width: 300px;
+    width: 100%;
+    min-height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.closeButton {
+    width: 16px;
+    height: 16px;
+    
+}
+
+.closeButton > img {
+    width: 100%;
+    height: 100%;
+}
+
+.modalUl
+{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    min-height: 250px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.modalUl > li
+{
+    text-align: center;
+    display: table-row;
+}
+span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.span1 {
+    font-weight: 700;
+    font-size: 25px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.span2 {
+    font-size: 16px;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.span3 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFB519;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.span4 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.input {
+    font-size: 35px;
+    width: 4ch;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.input:focus {
+    outline: none;
+}

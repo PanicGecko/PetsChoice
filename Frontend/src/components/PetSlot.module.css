@@ -1,0 +1,49 @@
+.frame1 {
+    width: 100%;
+    height: 175px;
+    border-left-color: #FFB519;
+    border-left-width: 5px;
+    border-left-style: solid;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.child:nth-of-type(1) {
+    
+}
+.child:nth-of-type(1) > span {
+    font-size: 25px;
+    font-weight: 700;
+    float: left;
+}
+.nextBut {
+    height: 25px;
+    width: 25px;
+    float: right;
+}
+.nextBut > img {
+    height: 100%;
+    width: 100%;
+}
+.child:nth-of-type(2) {
+    width: 200px;
+    overflow-y: scroll;
+    font-size: 20px;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+.child:nth-of-type(2)::-webkit-scrollbar {
+    display: none;
+}
+.child:nth-of-type(3) {
+    font-size: 25px;
+}

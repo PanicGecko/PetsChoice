@@ -1,0 +1,139 @@
+.logo{
+    width: 144px;
+    height: 144px;
+    margin: auto;
+    /* background-color: black; */
+    margin-top: 80px;
+    padding: 0;
+    margin-bottom: 82px;
+}
+
+.imgs {
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    /* background-color: blue; */
+    max-width: 416px;
+    min-width: 300px;
+    min-height: 300px;
+    overflow: visible;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.proPic {
+    width: 32px;
+    height: 32px;
+}
+
+.proPic > img {
+    width: 100%;
+    height: 100%;
+}
+
+.create {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 23px;
+    margin-bottom: 34px;
+}
+
+.phoneDiv{
+    width: 90%;
+    height: 56px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-left: 16px;
+    line-height: 56px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.phoneInput {
+    margin: auto;
+    vertical-align: middle;
+    height: 60%;
+    padding: 0;
+    font-size: 16px;
+    border-width: 0;
+    width: 90%;
+    padding-left: 5px;
+    background-color: transparent;
+}
+
+.phoneInput:focus {
+    outline: none;
+}
+
+.contButton {
+    position: relative;
+    width: 90%;
+    height: 56px;
+    border-width: 0;
+    border-radius: 5px;
+    padding-left: 16px;
+    line-height: 56px;
+    background-color: #FFB519;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.conButton {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
+
+.lockImg {
+    height: 100%;
+    width: 100%;
+}
+
+.cont {
+    vertical-align: middle;
+    margin: 0 auto;
+    color: white;
+    display: block;
+    font-size: 25px;
+}
+
+.tag {
+    font-size: 16px;
+    
+}
+.tagText {
+    font-size: 16px;
+    color: #A8A8A8;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sign {
+    font-size: 14px;
+    color: #FFB519;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        text-align: center;
+    }
+    .phoneDiv {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .proPic{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
