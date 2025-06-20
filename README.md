@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/PanicGecko/PetsChoice">
+  <a href="https://www.kibblefinder.com">
     <img src="logo.svg" alt="Logo" width="400" height="200">
   </a>
 
@@ -12,8 +12,11 @@
   <p align="center">
     New Way of Finding the Perfect Food for your Best Friend!
     <br />
+    <a href="https://www.kibblefinder.com"><strong>To Site »</strong></a>
+    <br />
     <a href="https://github.com/PanicGecko/PetsChoice"><strong>Explore the docs »</strong></a>
     <br />
+    
   </p>
 </div>
 
